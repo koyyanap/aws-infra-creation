@@ -9,3 +9,4 @@ provider:
 
 resources:
   - ${file(./resources/s3bucket.yml)}
+  - ${file(./resources/ec2.yml)}
