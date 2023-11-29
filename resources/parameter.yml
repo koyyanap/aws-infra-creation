@@ -7,3 +7,11 @@ Resources:
       Type: String
       Value: date
       Description: SSM Parameter for running date command.
+
+  BasicParameter1:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: Name
+      Type: String
+      Value: sudheer
+      Description: SSM Parameter for running date command.
