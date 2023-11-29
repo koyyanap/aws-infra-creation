@@ -1,0 +1,12 @@
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: aws-raj-bucket-29112023
+
+  S3Bucket1:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: aws-raj-bucket-29112023-1
