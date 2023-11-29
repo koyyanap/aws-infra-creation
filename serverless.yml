@@ -11,3 +11,4 @@ resources:
   - ${file(./resources/s3bucket.yml)}
   - ${file(./resources/ec2.yml)}
   - ${file(./resources/ecr.yml)}
+  - ${file(./resources/secret.yml)}
